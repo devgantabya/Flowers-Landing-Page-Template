@@ -30,6 +30,10 @@
 .zaba-plant{
   background-image: url("../assets/deal-zabo.png");
 }
+.newsletter-section {
+  background-image: url("../assets/news-letter-bg.png");
+  background-color: rgba(7, 51, 79, 0.3) !important;
+}
 
 .with-bg-image {
   background-size: cover;
