@@ -11,7 +11,7 @@
   font-weight: 700;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 .logo img {
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .menu .items {
+  .no-exist-in-mobile {
     display: none;
   }
 
