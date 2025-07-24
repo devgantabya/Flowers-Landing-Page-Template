@@ -1,0 +1,32 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .menu .items {
+    display: none;
+  }
+
+  .logo img {
+  width: 4rem;
+  height: auto;
+}
+    
+}
