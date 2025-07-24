@@ -19,6 +19,27 @@
   height: auto;
 }
 
+/* Background image styles */
+.bloom-plant {
+  background-image: url("../assets/deal-bloom.png");
+}
+.ana-plant {
+  background-image: url("../assets/deal-ana.png");
+}
+
+.zaba-plant{
+  background-image: url("../assets/deal-zabo.png");
+}
+
+.with-bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+
+
 @media screen and (max-width: 640px) {
   .no-exist-in-mobile {
     display: none;
